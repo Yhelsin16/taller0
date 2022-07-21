@@ -25,3 +25,108 @@ body{
     font-family: 'Marcellus', serif;
 }
 
+/*Barra de navegacion*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro2);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+.item{
+    padding: 1rem;
+    }
+    .menu a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .navbar-button{
+        background-color: var(--azuloscuro);
+        padding: 0.5rem;
+        color: var(--blanco);
+        border-radius: 5px;
+        font-family: 'Marcellus', serif;
+        font-size: 1em;
+    }
+
+    .menu i{
+        margin-right: 0.5rem;
+    }
+
+    .logo img{
+        height: 3rem;
+    }
+    
+    /*Seccion Features*/
+    #features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('../img/index/bg-feactures.pn');
+        color: white;
+        padding-top: 1rem;
+    }
+
+    .feacture-description{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .feacture-tittle{
+        background-color: rgba(0, 0, 0, 0.35);
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        padding: 0.5rem 0;
+    }
+
+    .feacture{
+        text-align: center;
+        padding: 1rem;
+        min-width: 180px;
+        max-width: 250px;
+        border-radius: 5px;
+    }
+
+    .feacture i{
+        font-size: 2em;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-blue{
+        background-color: #00325eae;
+    }
+     
+    .feature-black{
+        background-color: rgba(0,0,0,0.59);
+    }
+
+    #parrafo{
+        width: 25%;
+        min-width: 180px;
+        max-width: 230px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .parrafo-one{
+        text-align: center;
+        padding: 1rem;
+        min-width: 180px;
+        max-width: 250px;
+        border-radius: 5px;
+    }
